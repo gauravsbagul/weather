@@ -7,7 +7,7 @@ const argv = yargs
         a: { //aliace
             demand: true,
             alias: 'address',
-            describe: 'address to fetch weather for',
+            describe: 'address to fetch weather for given location',
             string: true
         }
     })
